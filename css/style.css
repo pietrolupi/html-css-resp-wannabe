@@ -128,6 +128,17 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ /* BONUS---- */
+ @media screen and (max-width: 1160px) {
+  
+    .container {
+      width: 100vw;
+    }
+  
+   }
+
+/* ------------------------ */
+ /* TABLET */
  @media screen and (max-width: 768px) {
   
   .container {
@@ -135,7 +146,9 @@ img {
   }
 
  }
+/* --------------------------- */
 
+/* MOBILE */
  @media screen and (max-width: 480px) {
   
     .row {
@@ -173,3 +186,8 @@ img {
     }
   
    }
+
+   /* ---------------------------------- */
+
+
+  

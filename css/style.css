@@ -135,3 +135,41 @@ img {
   }
 
  }
+
+ @media screen and (max-width: 480px) {
+  
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+   .lessons .col {
+        width: 100%;
+    }
+    .lessons p {
+        padding: 0 22px;  
+        margin-bottom: 50px;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .steps p {
+        padding: 0 22px 60px 22px ;
+    }
+    .col {
+        padding: 0;
+    }
+    .why-us {
+        background-color: #222222;
+    }
+    .steps {
+        margin: 0;
+    }
+    .why-us h2 {
+        padding: 60px 50px 0 50px;
+    }
+    .why-us .col-left {
+        width: 90%; 
+        padding-bottom: 60px;    
+    }
+  
+   }
